@@ -13,4 +13,5 @@ Save your GPX files to activities folder and run build_list rake task.
 
 ## Sending to Aloo
 
-    curl -XPOST -H'Content-Type: application/json' -BOARD_ID:SECRET -d@temp.json http://aloo.r14.railsrumble.com/api/kpis
+    curl -XPOST -H'Content-Type: application/json' -BOARD_ID:SECRET \
+    -d@temp.json http://aloo.r14.railsrumble.com/api/kpis
